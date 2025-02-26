@@ -41,9 +41,10 @@ button:hover {
   background-color: #6c8cff;
 }
 
-/* .gallery {
-    padding-top: 24px;
-    padding-bottom: 24px;
+.gallery {
+    padding-top: 32px;
+    margin-left: 156px;
+    margin-right: 156px;
   
     display: flex;
     flex-wrap: wrap;
@@ -56,13 +57,55 @@ button:hover {
     margin: 0px;
     width: 360px;
     height: 200px;
+    border: 1px solid #808080;
   }
   
   .gallery-link {
   }
-  
+
+
   .gallery-image {
     display: block;
     width: 360px;
-    height: 200px;
-  } */
+    height: 152px;
+  } 
+
+ .gallery-wrapper{
+  width: 360px;
+  height: 48px;
+  padding: 0px;
+ }
+ 
+ .gallery-group{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  padding-left: 20px;
+  padding-right: 25px;
+ 
+ }
+
+ .gallery-list{}
+
+ .gallery-subtitle{
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2e2f42;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+
+ .gallery-txt{
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-align: center;
+ }
